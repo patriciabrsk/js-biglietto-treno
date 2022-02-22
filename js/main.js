@@ -18,6 +18,4 @@ if (travellerAge < 18) {
     totalPrice = standardPrice;
 }
 
-document.getElementById('price').innerHTML +=  `${totalPrice.toFixed(2)} &euro;`;
-
-
+document.getElementById('price').innerHTML +=  ` ${totalPrice.toFixed(2)} &euro;`;
