@@ -1,7 +1,7 @@
 const travelDistance = parseInt(prompt('Your travel distance in km:'));
 const travellerAge = parseInt(prompt('Your age:'));
 
-if (isNaN(travelDistance) || isNaN(travelAge)) {
+if (isNaN(travelDistance) || isNaN(travellerAge)) {
     alert('Please enter a valid number');
 }
 
