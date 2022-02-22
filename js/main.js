@@ -5,8 +5,6 @@ if (isNaN(travelDistance) || isNaN(travellerAge)) {
     alert('Please enter a valid number');
 }
 
-console.log(travelDistance);
-
 const standardPrice = (travelDistance * 0.21);
 let totalPrice;
 
